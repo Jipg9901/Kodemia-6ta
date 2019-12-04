@@ -1,9 +1,9 @@
-console.log("Hola mundo");
-var PesoMexicano = 346
+var años = 20
+var meses = 10
+var dias = 3
 
-var Dolares = 19.47
-var Euro = 21.68
-var CUC = 0.01957
-var PesoCubano = 19.59
+var SegundosDia = 1440
+var Año = 5256000
+var meses = 43200
 
-//lo hice a traves de la consola
+años * Año + mes * meses + dias * SegundosDia
