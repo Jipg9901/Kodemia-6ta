@@ -1,4 +1,5 @@
 var name = "Doctrina".length
+var preieba = 'hola'
 
 if (name % 2 === 0) {
     if (name >= 0) {
@@ -13,7 +14,7 @@ if (name % 2 === 0) {
 } else {
     console.log("No es par")
 }
-Contraer
+
 
 
 
