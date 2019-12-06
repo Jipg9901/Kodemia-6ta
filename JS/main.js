@@ -1,20 +1,14 @@
-var name = "Doctrina".length
-var preieba = 'hola'
-
-if (name % 2 === 0) {
-    if (name >= 0) {
-        if (name <= 10) {
-            console.log("Numero esta entre cero y diez")
-        } else if (name <= 15) {
-            console.log("El numero esta entre once y quince")
-        } else {
-            console.log("El numero es mayor que quince")
+var numberOne = 10
+var numberTwo = 50
+var nuberCount = 0
+if (numberOne > 0 && numberTwo > 0 && numberOne < numberTwo) {
+    console.logt("Ambos son positivos")
+    for (var count = 0; count < numberTwo; cont++) {
+        numberOne++
+        console.log(numberOne)
+        if (numberOne % 8 === 0) {
+            numberCount++
+            console.log('Hay ${numbersCount} multiplos de 8')
         }
     }
-} else {
-    console.log("No es par")
 }
-
-
-
-
