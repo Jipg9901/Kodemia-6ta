@@ -8,8 +8,6 @@
 }
 */
 var datos = [p, e, r, r, o]
-var index = datos[1]
-
-for (var index = 0; index < datos.length; datos++) {
+for (var index = 0; index < datos.length; index++) {
     console.log(`${datos[index][0]} ${datos[index][4]}`)
 }
